@@ -40,6 +40,7 @@ class ofxSyphonClient {
 	
 	float getWidth();
 	float getHeight();
+    ofTexture * getTexture(){return &mTex;}
     
 	protected:
 	void* mClient;
